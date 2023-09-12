@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am Interest driven, motivated, hardworking, resilient and a keen learner. I enjoy problem solving along with analysis and have a keen<br>interest in mathematics, physics and algorithmic analysis. I take part in vigorous physical activities on a regular basis along with<br>football and cycling.
+I am Interest driven, motivated, hardworking, resilient and a keen learner. I enjoy problem solving along with analysis and have a keen interest in mathematics, physics and algorithmic analysis. I take part in vigorous physical activities on a regular basis along with<br>football and cycling.
 
 
 ## 🌐 Socials:
