@@ -1,5 +1,5 @@
 # 💫 About Me:
-I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I possess a strong sense of determination and an unwavering commitment to learning. I relish tackling challenges, particularly in the realms of mathematics, physics, and algorithmic analysis. I actively engage in intense physical activities, including football and cycling, as integral parts of my routine.
+I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I possess a strong sense of determination and an unwavering commitment towards learning. I relish tackling challenges, particularly in the realms of mathematics, physics, and algorithmic analysis. I actively engage in intense physical activities, including football and cycling, as integral parts of my routine.
 
 
 ## 🌐 Socials:
