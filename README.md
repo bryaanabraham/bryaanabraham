@@ -14,7 +14,7 @@ I thrive on my passions, driven by curiosity, and consistently put in diligent e
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="150" src="https://octodex.github.com/images/daftpunktocat-guy.gif"  />
 
 ###
 
