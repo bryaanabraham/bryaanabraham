@@ -1,5 +1,5 @@
-<h2 align="left">Hi 👋! My name is Bryan Abraham and I'm an Engineering Student Studyin Computer Science at SRM Chennai </h2>
-
+<h2 align="left">Hi 👋! My name is Bryan Abraham </h2>
+<h3>I'm an Engineering Student Studyin Computer Science at SRM Chennai </h3>
 ###
 
 <div align="center">
