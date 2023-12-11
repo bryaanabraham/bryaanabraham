@@ -2,12 +2,12 @@
 <h3 align="left">Orignally from mumbai, I am an Engineering Student Studying Computer Science at SRM Chennai </h3>
 <h4 align="left">💫 About Me:<br>
 I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I possess a strong sense of determination and an unwavering commitment towards learning. I relish tackling challenges, particularly in the realms of mathematics, physics, and algorithmic analysis. I actively engage in intense physical activities, including football and cycling, as integral parts of my routine. </h4>
-###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=bryaanabraham&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=bryaanabraham&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=bryaanabraham&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
 
 ###
 
