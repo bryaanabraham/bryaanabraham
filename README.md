@@ -16,8 +16,6 @@
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=bryaanabraham&limit=5&theme=nord&combine_all_yearly_contributions=true)
 
----
-[![](https://visitcount.itsvg.in/api?id=bryaanabraham&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bryaanabraham/bryaanabraham/output/github-contribution-grid-snake-dark.svg">
