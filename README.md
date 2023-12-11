@@ -1,6 +1,6 @@
 <h2 align="left">Hi 👋! My name is Bryan Abraham </h2>
 <h3 align="left">Orignally from mumbai, I am an Engineering Student Studying Computer Science at SRM Chennai </h3>
-<h4 align="left">💫 About Me: 
+<h4 align="left">💫 About Me:<br>
 I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I possess a strong sense of determination and an unwavering commitment towards learning. I relish tackling challenges, particularly in the realms of mathematics, physics, and algorithmic analysis. I actively engage in intense physical activities, including football and cycling, as integral parts of my routine. </h4>
 ###
 
