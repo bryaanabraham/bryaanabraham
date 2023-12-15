@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Bryan</h2>
+<h2 align="left">Hi!👋 My name is Bryan</h2>
 <h4 align="left">Orignally from mumbai, i am currently pursuing a Bachelors degree in Technology as a Computer Science and Engineering student at SRM KTR Chennai. </h4>
 <h3 align="left">💫 About Me:</h3>
 <h4>I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I possess a strong sense of determination and an unwavering commitment towards learning. I relish tackling challenges, particularly in the realms of mathematics, physics, and algorithmic analysis. I actively engage in intense physical activities, including football and cycling, as integral parts of my routine. </h4>
