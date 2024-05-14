@@ -1,7 +1,7 @@
 <h2 align="left">Hi!👋🏼 My name is Bryan</h2>
 <h4 align="left">Orignally from mumbai, i am currently pursuing a Bachelors degree in Technology as a Computer Science and Engineering student at SRM KTR Chennai. </h4>
 <h3 align="left">💫 About Me:</h3>
-<h4>I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I enjoy visualizingconcepts and gaining hands-on experience in my domains of interest while also exploring new ones I actively engage in intense physical activities, including football and cycling, as integral parts of my routine. </h4>
+<h4>I thrive on my passions, driven by curiosity, and consistently put in diligent effort. I enjoy visualizing concepts and gaining hands-on experience in my domains of interest while also exploring new ones I actively engage in intense physical activities, including football and cycling, as integral parts of my routine. </h4>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/bryann.abraham) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryan-abraham-b44560231/) 
