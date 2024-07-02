@@ -13,6 +13,7 @@
 ![](https://github-readme-stats.vercel.app/api?username=bryaanabraham&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=bryaanabraham&theme=dark&hide_border=false)<br/>
 
+### 🐍 Watch my contribution snake:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bryaanabraham/bryaanabraham/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pbryaanabraham/bryaanabraham/output/github-contribution-grid-snake.svg">
