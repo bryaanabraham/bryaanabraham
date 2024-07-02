@@ -3,7 +3,7 @@
 <h3 align="left">💫 About Me:</h3>
 <h4>Passionate, curious, and diligent, I thrive on exploring new ideas and pushing technological boundaries. I love visualizing concepts and gaining hands-on experience in my fields of interest. In addition to my tech pursuits, I engage in intense physical activities like football and cycling, which are key parts of my routine.</h4>
 
-## 🌐 Socials:
+## 🌐 Connect with me:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/bryann.abraham) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bryan-abraham-b44560231/) 
 
 # 💻 Tech Stack:
