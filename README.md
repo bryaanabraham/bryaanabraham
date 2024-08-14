@@ -13,7 +13,7 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bryaanabraham/bryaanabraham/output/github-contribution-grid-snake.svg">
 </picture>
 
-### 👨‍💻 Expertise 
+### 👨‍💻 Run this code to know all about my Expertise
 
 ```python
 
