@@ -3,7 +3,7 @@
 <h4>Passionate, curious, and diligent, I thrive on exploring new ideas and pushing technological boundaries. I love visualizing concepts and gaining hands-on experience in my fields of interest. In addition to my tech pursuits, I engage in intense physical activities like football and cycling, which are key parts of my routine.</h4>
 <br>
 
-|T|h|i|n|g|s||I||🖤|:| | | | | | | | | |
+|T|h|i|n|g|s||I||💙|:| | | | | | | | | |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 |.||||||||||||||||||||||||||
 |M|A|C|H|I|N|E|-|L|E|A|R|N|I|N|G|
