@@ -1,7 +1,7 @@
 <h2 align="left">Hi!👋🏼 My name is Bryan</h2>
 
 <h3 align="left">💫 About Me:</h3>
-<h4>Passionate, curious, and diligent, I thrive on exploring new ideas and pushing technological boundaries. I love visualizing concepts and gaining hands-on experience in my fields of interest. In addition to my tech pursuits, I engage in intense physical activities like football and cycling, which are key parts of my routine.</h4>
+<h4>Passionate, curious, and diligent, I thrive on exploring new ideas and pushing technological boundaries. I love visualizing concepts and gaining hands-on experience in my fields of interest. In addition to my tech pursuits, I engage in intense physical activities of sport and excerise as a key parts of my routine.</h4>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
 
 
