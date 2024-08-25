@@ -3,7 +3,7 @@
 <h4>Passionate, curious, and diligent, I thrive on exploring new ideas and pushing technological boundaries. I love visualizing concepts and gaining hands-on experience in my fields of interest. In addition to my tech pursuits, I engage in intense physical activities like football and cycling, which are key parts of my routine.</h4>
 <br>
 
-|T|h|i|n|g|s||I||💙|:| | | | | | | | | |
+|T|H|I|N|G|S||I||💙|:| | | | | | | | | |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 |.||||||||||||||||||||||||||
 |M|A|C|H|I|N|E|-|L|E|A|R|N|I|N|G|
@@ -43,7 +43,7 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=bryaanabraham&theme=dark&hide_border=false)
 <br>
-<h3 align="left">Technologies That I Know👨🏻‍💻</h3></summary>
+<h3 align="left">Technologies I Know👨🏻‍💻</h3></summary>
 <div id="user-content-toc" style="flex: 1;">
   <!--tech stack icons-->
   <p align="left">
