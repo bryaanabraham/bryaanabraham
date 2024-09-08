@@ -61,4 +61,13 @@
 </tr>
 </table>
 
+<h3 align="left">Technologies I Know👨🏻‍💻</h3></summary>
 
+<div id="user-content-toc" style="flex: 1;">
+  <!--tech stack icons-->
+  <p align="left">
+    <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ai,c,cpp,py,pycharm,vscode,anaconda,sklearn,tensorflow,pytorch,bash,vim,git,github,aws,azure,ansible,firebase,mongodb,mysql,postman,docker,terraform,flask,arduino,ubuntu,linux,debian,androidstudio,raspberrypi,dart,flutter,blender,unreal,au,ae,&perline=12" /> </a>
+  </p>
+</div>
+<br>
