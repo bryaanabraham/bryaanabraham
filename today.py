@@ -11,7 +11,7 @@ if not ACCESS_TOKEN:
     raise ValueError("ACCESS_TOKEN environment variable is missing!")
 
 HEADERS = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-USER_NAME = bryaanabraham
+USER_NAME = "bryaanabraham"
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
