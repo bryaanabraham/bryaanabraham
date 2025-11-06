@@ -1,10 +1,3 @@
-<a href="https://github.com/bryaanabraham">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bryaanabraham/bryaanabraham/main/dark_mode.svg">
-    <img alt="Bryan's GitHub Profile" src="https://raw.githubusercontent.com/bryaanabraham/bryaanabraham/main/light_mode.svg">
-  </picture>
-</a>
-
 ## My favorite tools and technologies ⚙️
 
 <table>
