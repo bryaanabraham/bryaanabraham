@@ -15,27 +15,27 @@
 
   <!-- OS -->
   <text class="mono label" x="40"  y="90">OS:</text>
-  <text class="mono dots"  x="205" y="90">..................................</text>
+  <text class="mono dots"  x="205" y="90">................................</text>
   <text class="mono val"   x="520" y="90">Windows 10, Android 14, Linux</text>
 
   <!-- Uptime -->
   <text class="mono label" x="40"  y="114">Uptime:</text>
-  <text class="mono dots"  x="205" y="114">..................................</text>
+  <text class="mono dots"  x="205" y="114">................................</text>
   <text class="mono val"   x="520" y="114">22 years</text>
 
   <!-- Host -->
   <text class="mono label" x="40"  y="138">Host:</text>
-  <text class="mono dots"  x="205" y="138">..................................</text>
+  <text class="mono dots"  x="205" y="138">................................</text>
   <text class="mono val"   x="520" y="138">Mahindra and Mahindra</text>
 
   <!-- Kernel -->
   <text class="mono label" x="40"  y="162">Kernel:</text>
-  <text class="mono dots"  x="205" y="162">..................................</text>
-  <text class="mono val"   x="520" y="162">Voice AI + CV + Embedded Systems</text>
+  <text class="mono dots"  x="205" y="162">................................</text>
+  <text class="mono val"   x="520" y="162">Voice AI, Computer Vision</text>
 
   <!-- IDE -->
   <text class="mono label" x="40"  y="186">IDE:</text>
-  <text class="mono dots"  x="205" y="186">..................................</text>
+  <text class="mono dots"  x="205" y="186">................................</text>
   <text class="mono val"   x="520" y="186">VSCode, PyCharm, Vim</text>
 
   <!-- Spacer -->
@@ -43,12 +43,12 @@
 
   <!-- Languages.Programming -->
   <text class="mono label" x="40"  y="234">Languages.Programming:</text>
-  <text class="mono dots"  x="300" y="234">....</text>
+  <text class="mono dots"  x="300" y="234">......................</text>
   <text class="mono val"   x="520" y="234">Python, C/C++</text>
 
   <!-- Languages.Real -->
   <text class="mono label" x="40"  y="258">Languages.Real:</text>
-  <text class="mono dots"  x="205" y="258">..................................</text>
+  <text class="mono dots"  x="205" y="258">.................................</text>
   <text class="mono val"   x="520" y="258">English, Hindi, French</text>
 
   <!-- Spacer -->
@@ -56,12 +56,12 @@
 
   <!-- Hobbies.Software -->
   <text class="mono label" x="40"  y="306">Hobbies.Software:</text>
-  <text class="mono dots"  x="260" y="306">....</text>
+  <text class="mono dots"  x="260" y="306">...........................</text>
   <text class="mono val"   x="520" y="306">Blender, Graphic Design</text>
 
   <!-- Hobbies.Hardware -->
   <text class="mono label" x="40"  y="330">Hobbies.Hardware:</text>
-  <text class="mono dots"  x="260" y="330">....</text>
+  <text class="mono dots"  x="260" y="330">...........................</text>
   <text class="mono val"   x="520" y="330">Raspberry Pi, Arduino</text>
 
   <!-- Spacer -->
@@ -72,11 +72,11 @@
 
   <!-- Email -->
   <text class="mono label" x="40"  y="402">Email:</text>
-  <text class="mono dots"  x="205" y="402">..................................</text>
+  <text class="mono dots"  x="205" y="402">................................</text>
   <text class="mono val"   x="520" y="402">bryaanabraham@gmail.com</text>
 
   <!-- LinkedIn -->
   <text class="mono label" x="40"  y="426">LinkedIn:</text>
-  <text class="mono dots"  x="205" y="426">..................................</text>
+  <text class="mono dots"  x="205" y="426">................................</text>
   <text class="mono val"   x="520" y="426">Bryan Abraham</text>
 </svg>
