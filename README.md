@@ -1,3 +1,17 @@
+<pre>
+  ___ ___         .__  .__           .___/\        __________                               
+ /   |   \   ____ |  | |  |   ____   |   )/_____   \______   \_______ ___.__._____    ____  
+/    ~    \_/ __ \|  | |  |  /  _ \  |   |/     \   |    |  _/\_  __ <   |  |\__  \  /    \ 
+\    Y    /\  ___/|  |_|  |_(  <_> ) |   |  Y Y  \  |    |   \ |  | \/\___  | / __ \|   |  \
+ \___|_  /  \___  >____/____/\____/  |___|__|_|  /  |______  / |__|   / ____|(____  /___|  /
+       \/       \/                             \/          \/         \/          \/     \/ 
+</pre>
+
+## My GitHub
+![bryaanabraham's Stats](https://github-readme-stats.vercel.app/api?username=bryaanabraham&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![bryaanabraham's Streak](https://github-readme-streak-stats.herokuapp.com/?user=bryaanabraham&theme=vue-dark&hide_border=true)
+![bryaanabraham's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bryaanabraham&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)  
+
 ## My favorite tools and technologies ⚙️
 
 <table>
