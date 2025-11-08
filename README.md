@@ -6,6 +6,7 @@
  \___|_  /  \___  >____/____/\____/  |___|__|_|  /  |______  / |__|   / ____|(____  /___|  /
        \/       \/                             \/          \/         \/          \/     \/ 
 </pre>
+![About card](assets/about-card.svg)
 
 ## My GitHub
 ![bryaanabraham's Stats](https://github-readme-stats.vercel.app/api?username=bryaanabraham&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
