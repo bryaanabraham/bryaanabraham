@@ -1,82 +1,68 @@
-<svg width="900" height="470" viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg">
+<svg width="1300" height="470" viewBox="0 0 1300 470" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill:#0b1220; }
     .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:16px; }
     .header { fill:#93c5fd; }
-    .label { fill:#f59e0b; }   /* amber like terminal prompt labels */
-    .dots  { fill:#64748b; }   /* slate gray leader dots */
-    .val   { fill:#e5e7eb; }   /* light text */
+    .label { fill:#f59e0b; }
+    .dots  { fill:#64748b; }
+    .val   { fill:#e5e7eb; }
   </style>
 
-  <rect class="bg" x="0" y="0" width="900" height="470"/>
+  <rect class="bg" width="1300" height="470"/>
 
-  <!-- Header line -->
-  <text class="mono header" x="40" y="50">bryan@readme ----------------------------------------------------------------</text>
+  <!-- LEFT ASCII (x reduced for snug alignment) -->
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <image href="./assets/profile.png" width="100%" height="100%" />
+</svg>
 
-  <!-- OS -->
-  <text class="mono label" x="40"  y="90">OS:</text>
-  <text class="mono dots"  x="205" y="90">................................</text>
-  <text class="mono val"   x="520" y="90">Windows 10, Android 14, Linux</text>
+  <!-- RIGHT COLUMN: shifted closer -->
+  <g transform="translate(420,0)">
+    <text class="mono header" x="40" y="50">bryan@readme ----------------------------------------------------------------</text>
 
-  <!-- Uptime -->
-  <text class="mono label" x="40"  y="114">Uptime:</text>
-  <text class="mono dots"  x="205" y="114">................................</text>
-  <text class="mono val"   x="520" y="114">22 years</text>
+    <text class="mono label" x="40"  y="90">OS:</text>
+    <text class="mono dots"  x="205" y="90">................................</text>
+    <text class="mono val"   x="520" y="90">Windows 10, Android 14, Linux</text>
 
-  <!-- Host -->
-  <text class="mono label" x="40"  y="138">Host:</text>
-  <text class="mono dots"  x="205" y="138">................................</text>
-  <text class="mono val"   x="520" y="138">Mahindra and Mahindra</text>
+    <text class="mono label" x="40"  y="114">Uptime:</text>
+    <text class="mono dots"  x="205" y="114">................................</text>
+    <text class="mono val"   x="520" y="114">22 years</text>
 
-  <!-- Kernel -->
-  <text class="mono label" x="40"  y="162">Kernel:</text>
-  <text class="mono dots"  x="205" y="162">................................</text>
-  <text class="mono val"   x="520" y="162">Voice AI, Computer Vision</text>
+    <text class="mono label" x="40"  y="138">Host:</text>
+    <text class="mono dots"  x="205" y="138">................................</text>
+    <text class="mono val"   x="520" y="138">Mahindra and Mahindra</text>
 
-  <!-- IDE -->
-  <text class="mono label" x="40"  y="186">IDE:</text>
-  <text class="mono dots"  x="205" y="186">................................</text>
-  <text class="mono val"   x="520" y="186">VSCode, PyCharm, Vim</text>
+    <text class="mono label" x="40"  y="162">Kernel:</text>
+    <text class="mono dots"  x="205" y="162">................................</text>
+    <text class="mono val"   x="520" y="162">Voice AI, Computer Vision</text>
 
-  <!-- Spacer -->
-  <text class="mono val" x="40" y="210"> </text>
+    <text class="mono label" x="40"  y="186">IDE:</text>
+    <text class="mono dots"  x="205" y="186">................................</text>
+    <text class="mono val"   x="520" y="186">VSCode, PyCharm, Vim</text>
 
-  <!-- Languages.Programming -->
-  <text class="mono label" x="40"  y="234">Languages.Programming:</text>
-  <text class="mono dots"  x="300" y="234">......................</text>
-  <text class="mono val"   x="520" y="234">Python, C/C++</text>
+    <text class="mono label" x="40"  y="234">Languages.Programming:</text>
+    <text class="mono dots"  x="300" y="234">......................</text>
+    <text class="mono val"   x="520" y="234">Python, C/C++</text>
 
-  <!-- Languages.Real -->
-  <text class="mono label" x="40"  y="258">Languages.Real:</text>
-  <text class="mono dots"  x="205" y="258">.................................</text>
-  <text class="mono val"   x="520" y="258">English, Hindi, French</text>
+    <text class="mono label" x="40"  y="258">Languages.Real:</text>
+    <text class="mono dots"  x="205" y="258">.................................</text>
+    <text class="mono val"   x="520" y="258">English, Hindi, French</text>
 
-  <!-- Spacer -->
-  <text class="mono val" x="40" y="282"> </text>
+    <text class="mono label" x="40"  y="306">Hobbies.Software:</text>
+    <text class="mono dots"  x="260" y="306">...........................</text>
+    <text class="mono val"   x="520" y="306">Blender, Graphic Design</text>
 
-  <!-- Hobbies.Software -->
-  <text class="mono label" x="40"  y="306">Hobbies.Software:</text>
-  <text class="mono dots"  x="260" y="306">...........................</text>
-  <text class="mono val"   x="520" y="306">Blender, Graphic Design</text>
+    <text class="mono label" x="40"  y="330">Hobbies.Hardware:</text>
+    <text class="mono dots"  x="260" y="330">...........................</text>
+    <text class="mono val"   x="520" y="330">Raspberry Pi, Arduino</text>
 
-  <!-- Hobbies.Hardware -->
-  <text class="mono label" x="40"  y="330">Hobbies.Hardware:</text>
-  <text class="mono dots"  x="260" y="330">...........................</text>
-  <text class="mono val"   x="520" y="330">Raspberry Pi, Arduino</text>
+    <text class="mono header" x="40" y="378">- Contact --------------------------------------------------------------------</text>
 
-  <!-- Spacer -->
-  <text class="mono val" x="40" y="354"> </text>
+    <text class="mono label" x="40"  y="402">Email:</text>
+    <text class="mono dots"  x="205" y="402">................................</text>
+    <text class="mono val"   x="520" y="402">bryaanabraham@gmail.com</text>
 
-  <!-- Contact separator -->
-  <text class="mono header" x="40" y="378">- Contact --------------------------------------------------------------------</text>
-
-  <!-- Email -->
-  <text class="mono label" x="40"  y="402">Email:</text>
-  <text class="mono dots"  x="205" y="402">................................</text>
-  <text class="mono val"   x="520" y="402">bryaanabraham@gmail.com</text>
-
-  <!-- LinkedIn -->
-  <text class="mono label" x="40"  y="426">LinkedIn:</text>
-  <text class="mono dots"  x="205" y="426">................................</text>
-  <text class="mono val"   x="520" y="426">Bryan Abraham</text>
+    <text class="mono label" x="40"  y="426">LinkedIn:</text>
+    <text class="mono dots"  x="205" y="426">................................</text>
+    <text class="mono val"   x="520" y="426">Bryan Abraham</text>
+  </g>
 </svg>
