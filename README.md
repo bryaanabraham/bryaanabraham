@@ -32,7 +32,7 @@
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=ai" width="48"/><br>Generative AI / LLMs</td>
     <td align="center" width="96"><img src="https://numpy.org/images/logo.svg" width="65" height="65" /><br>NumPy</td>
     <td align="center" width="96"><img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="65" height="65" /><br>Pandas</td>
-    <td align="center" width="96"><img src="https://anaconda.org/favicon.ico" width="48"/><br>Anaconda</td>
+    <td align="center" width="96"><img src="https://avatars.githubusercontent.com/u/497012?s=200&v=4" width="48"/><br>Anaconda</td>
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=mysql" width="48"/><br>MySQL</td>
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=redis" width="48"/><br>Redis</td>
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=r" width="48"/><br>Data Analysis (R)</td>
