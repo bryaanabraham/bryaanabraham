@@ -9,9 +9,10 @@
 ![About card](assets/about-card.svg)
 
 ## My GitHub
-![bryaanabraham's Stats](https://github-readme-stats.vercel.app/api?username=bryaanabraham&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![bryaanabraham's Streak](https://github-readme-streak-stats.herokuapp.com/?user=bryaanabraham&theme=vue-dark&hide_border=true)
-![bryaanabraham's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bryaanabraham&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)  
+![GitHub Stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&theme=tokyonight)
+![Top Languages](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=languages&theme=tokyonight)
+![Contributions](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=contributions&theme=tokyonight)
+![Top Repos](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=top-repos&theme=tokyonight)
 
 ## My favorite tools and technologies ⚙️
 
