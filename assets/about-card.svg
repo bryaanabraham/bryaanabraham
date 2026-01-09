@@ -36,7 +36,7 @@
 
     <text class="mono label" x="40"  y="138">Host:</text>
     <text class="mono dots"  x="205" y="138">................................</text>
-    <text class="mono val"   x="520" y="138">Mahindra and Mahindra</text>
+    <text class="mono val"   x="520" y="138">86400 (Mobileware Technologies)</text>
 
     <text class="mono label" x="40"  y="162">Kernel:</text>
     <text class="mono dots"  x="205" y="162">................................</text>
