@@ -9,6 +9,8 @@
 ![About card](assets/about-card.svg)
 
 ## My GitHub
+![bryaanabraham's GitHub stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&theme=dark&chart=bars) ![bryaanabraham's Language stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=languages&theme=dark&chart=bars)
+![bryaanabraham's Contribution stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=contributions&theme=dark) ![bryaanabraham's Top Repos](https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=top-repos&theme=dark)
 
 ## My favorite tools and technologies
 
