@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-01-28T10:51:48.946790Z",
+  "profile": {
+    "username": "bryaanabraham",
+    "followers": 5,
+    "public_repos": 14,
+    "stars_total": 5,
+    "forks_total": 2,
+    "contributions_last_year": 151
+  },
+  "languages_percent": {
+    "Python": 46.33,
+    "Jupyter Notebook": 51.45,
+    "Shell": 0.0,
+    "JavaScript": 0.02,
+    "CSS": 0.0,
+    "HTML": 0.03,
+    "Dart": 0.05,
+    "C++": 0.16,
+    "CMake": 0.01,
+    "Swift": 0.0,
+    "C": 0.31,
+    "Kotlin": 0.0,
+    "Objective-C": 0.0,
+    "Cython": 1.6,
+    "Fortran": 0.01,
+    "PowerShell": 0.0,
+    "Smarty": 0.0,
+    "Roff": 0.0,
+    "Batchfile": 0.0,
+    "Forth": 0.0,
+    "XSLT": 0.0,
+    "Classic ASP": 0.0,
+    "VBScript": 0.0,
+    "Lua": 0.0
+  },
+  "top_repositories": [
+    {
+      "name": "EcoCode",
+      "stars": 3,
+      "forks": 2,
+      "language": "Dart"
+    },
+    {
+      "name": "AutoPark-CV",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python"
+    },
+    {
+      "name": "WanderGuard",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python"
+    },
+    {
+      "name": "BackDropAI",
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook"
+    },
+    {
+      "name": "BeyondThePixels",
+      "stars": 0,
+      "forks": 0,
+      "language": "Jupyter Notebook"
+    }
+  ]
+}
