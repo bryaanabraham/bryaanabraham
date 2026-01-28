@@ -23,13 +23,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: python scripts/fetch_stats.py
 
-      - name: Generate SVG dashboard
-        run: python scripts/generate_svg.py
-
+      - name: Build SVG from template
+        run: python scripts/build_svg.py
+      
       - name: Commit JSON and SVG
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add stats.json stats.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub stats dashboard"
-          git push
+          git diff --cached --quiet || git commit -m "Update GitHub stats dashboard"
+          git pull --rebase origin main
+          git push origin main
