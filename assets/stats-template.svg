@@ -20,27 +20,21 @@
 
   <rect class="bg" width="1100" height="650"/>
 
-  <!-- HEADER LINE -->
-  <text class="mono header" x="40" y="50">{{username}}@readme --------------------------------------------------------------</text>
+  <!-- HEADER -->
+  <text class="mono header" x="40" y="50">{{username}}@readme ----------------------------------------------------</text>
 
-  <!-- ================= PROFILE ================= -->
+  <!-- LEFT COLUMN -->
   <text class="mono section" x="40" y="100">OS.Profile</text>
-
   {{PROFILE_BLOCK}}
 
-  <!-- ================= CONTRIBUTIONS ================= -->
   <text class="mono section" x="40" y="250">Activity.Stats</text>
-
   {{CONTRIB_BLOCK}}
 
-  <!-- ================= LANGUAGES ================= -->
-  <text class="mono section" x="40" y="380">Languages.Usage</text>
-
+  <text class="mono section" x="40" y="400">Languages.Usage</text>
   {{LANGUAGE_BARS}}
 
-  <!-- ================= REPOS ================= -->
-  <text class="mono section" x="600" y="100">Top.Repositories</text>
-
+  <!-- RIGHT COLUMN -->
+  <text class="mono section" x="620" y="100">Top.Repositories</text>
   {{TOP_REPOS}}
 
 </svg>
