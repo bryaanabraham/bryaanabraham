@@ -1,56 +1,42 @@
-<svg width="1300" height="470" viewBox="0 0 1300 470" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bg { fill:#0b1220; }
-    .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:16px; }
+    .card { fill:#0f172a; stroke:#1e293b; stroke-width:1; rx:12; }
+    .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:15px; }
     .header { fill:#93c5fd; font-size:20px; }
     .label { fill:#f59e0b; }
-    .dots  { fill:#334155; }
-    .val   { fill:#e5e7eb; }
-    .muted { fill:#94a3b8; font-size:14px; }
+    .val { fill:#e5e7eb; }
+    .muted { fill:#94a3b8; font-size:13px; }
     .barbg { fill:#1e293b; }
+    .barpy { fill:#4ade80; }
+    .barnb { fill:#60a5fa; }
+    .barcy { fill:#a78bfa; }
   </style>
 
-  <rect class="bg" width="1300" height="470"/>
+  <rect class="bg" width="900" height="600"/>
 
   <!-- HEADER -->
-  <text class="mono header" x="40" y="45">{{username}}@github — profile snapshot</text>
-  <text class="mono muted" x="40" y="70">Generated: {{generated_date}}</text>
+  <text class="mono header" x="30" y="45">{{username}}@github — profile snapshot</text>
+  <text class="mono muted" x="30" y="70">Generated: {{generated_date}}</text>
 
-  <!-- PROFILE STATS PANEL -->
-  <g transform="translate(40,110)">
-    <text class="mono label" x="0" y="0">Profile Stats</text>
+  <!-- PROFILE CARD -->
+  <rect class="card" x="30" y="100" width="400" height="200" rx="12"/>
+  <text class="mono label" x="50" y="130">Profile Stats</text>
+  {{PROFILE_BLOCK}}
 
-    <text class="mono label" x="0" y="40">Followers</text>
-    <text class="mono dots"  x="150" y="40">.......................</text>
-    <text class="mono val"   x="360" y="40">{{followers}}</text>
+  <!-- CONTRIBUTIONS CARD -->
+  <rect class="card" x="470" y="100" width="400" height="200" rx="12"/>
+  <text class="mono label" x="490" y="130">Contributions</text>
+  {{CONTRIB_BLOCK}}
 
-    <text class="mono label" x="0" y="70">Public Repos</text>
-    <text class="mono dots"  x="150" y="70">.......................</text>
-    <text class="mono val"   x="360" y="70">{{repos}}</text>
+  <!-- LANGUAGES CARD -->
+  <rect class="card" x="30" y="330" width="400" height="230" rx="12"/>
+  <text class="mono label" x="50" y="360">Language Usage</text>
+  {{LANGUAGE_BARS}}
 
-    <text class="mono label" x="0" y="100">Total Stars</text>
-    <text class="mono dots"  x="150" y="100">.......................</text>
-    <text class="mono val"   x="360" y="100">{{stars}}</text>
-
-    <text class="mono label" x="0" y="130">Total Forks</text>
-    <text class="mono dots"  x="150" y="130">.......................</text>
-    <text class="mono val"   x="360" y="130">{{forks}}</text>
-
-    <text class="mono label" x="0" y="160">Contributions (1y)</text>
-    <text class="mono dots"  x="150" y="160">.......................</text>
-    <text class="mono val"   x="360" y="160">{{contributions}}</text>
-  </g>
-
-  <!-- LANGUAGE USAGE BARS (DYNAMIC) -->
-  <g transform="translate(500,110)">
-    <text class="mono label" x="0" y="0">Language Usage</text>
-    {{LANGUAGE_BARS}}
-  </g>
-
-  <!-- TOP REPOSITORIES (DYNAMIC) -->
-  <g transform="translate(980,110)">
-    <text class="mono label" x="0" y="0">Top Repositories</text>
-    {{TOP_REPOS}}
-  </g>
+  <!-- REPOS CARD -->
+  <rect class="card" x="470" y="330" width="400" height="230" rx="12"/>
+  <text class="mono label" x="490" y="360">Top Repositories</text>
+  {{TOP_REPOS}}
 
 </svg>
