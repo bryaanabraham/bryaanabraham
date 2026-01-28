@@ -22,13 +22,12 @@
 
 
 
-  <!-- RIGHT COLUMN: shifted closer -->
   <g transform="translate(420,0)">
     <text class="mono header" x="40" y="50">bryan@readme --------------------------------------------------------------------</text>
 
     <text class="mono label" x="40"  y="90">OS:</text>
     <text class="mono dots"  x="205" y="90">................................</text>
-    <text class="mono val"   x="520" y="90">Windows 11, Android 16, Linux</text>
+    <text class="mono val"   x="520" y="90">Windows, Ubuntu</text>
 
     <text class="mono label" x="40"  y="114">Uptime:</text>
     <text class="mono dots"  x="205" y="114">................................</text>
@@ -40,7 +39,7 @@
 
     <text class="mono label" x="40"  y="162">Kernel:</text>
     <text class="mono dots"  x="205" y="162">................................</text>
-    <text class="mono val"   x="520" y="162">Voice AI, Computer Vision</text>
+    <text class="mono val"   x="520" y="162">Agentic AI, Computer Vision</text>
 
     <text class="mono label" x="40"  y="186">IDE:</text>
     <text class="mono dots"  x="205" y="186">................................</text>
@@ -48,9 +47,9 @@
 
     <text class="mono label" x="40"  y="234">Languages.Programming:</text>
     <text class="mono dots"  x="300" y="234">......................</text>
-    <text class="mono val"   x="520" y="234">Python, C/C++</text>
+    <text class="mono val"   x="520" y="234">Python, C/C++, React</text>
 
-    <text class="mono label" x="40"  y="258">Languages.Real:</text>
+    <text class="mono label" x="40"  y="258">Languages.Spoken:</text>
     <text class="mono dots"  x="205" y="258">.................................</text>
     <text class="mono val"   x="520" y="258">English, Hindi, Marathi, French</text>
 
@@ -70,6 +69,11 @@
 
     <text class="mono label" x="40"  y="426">LinkedIn:</text>
     <text class="mono dots"  x="205" y="426">................................</text>
-    <text class="mono val"   x="520" y="426">Bryan Abraham</text>
+    <a href="https://www.linkedin.com/in/abraham-bryan/" target="_blank">
+      <text class="mono val" x="520" y="426" style="cursor:pointer; text-decoration: underline;">
+        Bryan Abraham
+      </text>
+</a>
+
   </g>
 </svg>
