@@ -9,12 +9,6 @@
 ![About card](assets/about-card.svg)
 
 ## My GitHub
-<p align="center">
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&theme=tokyonight" alt="GitHub Stats" width="48%" />
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=languages&theme=tokyonight" alt="Top Languages" width="48%" />
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=contributions&theme=tokyonight" alt="Contributions" width="48%" />
-  <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=top-repos&theme=tokyonight" alt="Top Repos" width="48%" />
-</p>
 
 ## My favorite tools and technologies
 
