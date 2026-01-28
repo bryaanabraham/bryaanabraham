@@ -14,7 +14,7 @@ svg = svg.replace("{{stars}}", str(profile["stars_total"]))
 svg = svg.replace("{{forks}}", str(profile["forks_total"]))
 svg = svg.replace("{{contributions}}", str(profile["contributions_last_year"]))
 
-with open("stats.svg", "w") as f:
+with open("assets/stats.svg", "w") as f:
     f.write(svg)
 
 print("SVG built from template!")
