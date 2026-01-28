@@ -3,6 +3,23 @@ import calendar
 
 BIRTH_DATE = date(2003, 4, 25)
 
+def format_duration(years, months, days):
+    parts = []
+
+    if years:
+        parts.append(f"{years} year{'s' if years != 1 else ''}")
+    if months:
+        parts.append(f"{months} month{'s' if months != 1 else ''}")
+    if days:
+        parts.append(f"{days} day{'s' if days != 1 else ''}")
+
+    if not parts:
+        return "0 days"
+
+    if len(parts) == 1:
+        return parts[0]
+
+    return ", ".join(parts[:-1]) + " and " + parts[-1]
 
 def calculate_age(birth_date: date) -> str:
     today = date.today()
@@ -21,8 +38,8 @@ def calculate_age(birth_date: date) -> str:
         years -= 1
         months += 12
 
-    return f"{years} years, {months} months and {days} days"
-
+    return format_duration(years, months, days)
+    
 
 def main():
     age_string = calculate_age(BIRTH_DATE)
