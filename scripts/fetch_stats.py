@@ -28,7 +28,7 @@ language_percent = {
     for lang, count in language_bytes.items()
 } if total_bytes else {}
 
-# ---------------- GRAPHQL: CONTRIBUTIONS ----------------
+# ---------------- GRAPHQL: CONTRIBUTIONS CALENDAR ----------------
 graphql_query = {
     "query": f"""
     {{
@@ -36,6 +36,12 @@ graphql_query = {
         contributionsCollection {{
           contributionCalendar {{
             totalContributions
+            weeks {{
+              contributionDays {{
+                date
+                contributionCount
+              }}
+            }}
           }}
         }}
       }}
@@ -44,7 +50,34 @@ graphql_query = {
 }
 
 gql = requests.post("https://api.github.com/graphql", json=graphql_query, headers=headers).json()
-contributions = gql["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+
+calendar = gql["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+total_contributions = calendar["totalContributions"]
+
+days = []
+for week in calendar["weeks"]:
+    for day in week["contributionDays"]:
+        days.append(day["contributionCount"])
+
+# ---------------- STREAK CALCULATIONS ----------------
+current_streak = 0
+longest_streak = 0
+temp_streak = 0
+
+for count in days:
+    if count > 0:
+        temp_streak += 1
+        longest_streak = max(longest_streak, temp_streak)
+    else:
+        temp_streak = 0
+
+for count in reversed(days):
+    if count > 0:
+        current_streak += 1
+    else:
+        break
+
+avg_daily = round(total_contributions / len(days), 2) if days else 0
 
 # ---------------- TOP REPOS ----------------
 top_repos = sorted(repos, key=lambda r: r["stargazers_count"], reverse=True)[:5]
@@ -66,8 +99,13 @@ data = {
         "followers": user["followers"],
         "public_repos": user["public_repos"],
         "stars_total": total_stars,
-        "forks_total": total_forks,
-        "contributions_last_year": contributions
+        "forks_total": total_forks
+    },
+    "contributions": {
+        "total_last_year": total_contributions,
+        "current_streak": current_streak,
+        "longest_streak": longest_streak,
+        "average_per_day": avg_daily
     },
     "languages_percent": language_percent,
     "top_repositories": top_repo_data
@@ -76,4 +114,4 @@ data = {
 with open("stats.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print("Stats JSON generated.")
+print("Stats JSON with streaks generated.")
