@@ -10,13 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Fetch stats data
         env:
@@ -25,12 +28,18 @@ jobs:
 
       # - name: Build SVG from template
       #   run: python scripts/build_svg.py
-      
+
       - name: Commit JSON and SVG
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add stats.json stats.svg
-          git diff --cached --quiet || git commit -m "Update GitHub stats dashboard"
-          git pull --rebase origin main
-          git push origin main
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update GitHub stats data"
+            git push
+          fi
