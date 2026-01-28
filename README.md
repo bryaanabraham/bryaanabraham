@@ -16,7 +16,7 @@
   <img src="https://git-hub-stats-card-generator.vercel.app/api/svg?username=bryaanabraham&type=top-repos&theme=tokyonight" alt="Top Repos" width="48%" />
 </p>
 
-## My favorite tools and technologies ⚙️
+## My favorite tools and technologies
 
 <table>
   <!-- AI / ML / Data Science -->
