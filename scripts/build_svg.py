@@ -48,7 +48,6 @@ profile_block = f"""
 <text class="mono dots" x="220" y="230">......................</text>
 <text class="mono val" x="500" y="230">{profile['forks_total']}</text>
 """
-svg = svg.replace("{{PROFILE_BLOCK}}", profile_block)
 
 # ================= CONTRIBUTIONS BLOCK =================
 contrib_block = f"""
@@ -73,14 +72,14 @@ svg = svg.replace("{{CONTRIB_BLOCK}}", contrib_block)
 # ================= LANGUAGE BARS =================
 def generate_language_bars(languages_dict):
     sorted_langs = sorted(languages_dict.items(), key=lambda x: x[1], reverse=True)
-    y = 420
+    y = 440
     parts = []
 
     for lang, pct in sorted_langs:
         if pct < 1:
             continue
 
-        width = int(pct * 3)
+        width = int(pct * 2.6)
         color = language_color(lang)
 
         parts.append(f"""
@@ -89,7 +88,7 @@ def generate_language_bars(languages_dict):
 <rect fill="{color}" x="220" y="{y-12}" width="{width}" height="12" rx="6"/>
 <text class="mono val" x="500" y="{y}">{pct:.1f}%</text>
 """)
-        y += 30
+        y += 40
 
     return "\n".join(parts)
 
@@ -102,9 +101,9 @@ def generate_repos(repo_list):
 
     for repo in repo_list[:5]:
         parts.append(f"""
-<text class="mono label" x="600" y="{y}">{repo['name']}</text>
-<text class="mono muted" x="600" y="{y+20}">{repo['language']}</text>
-<text class="mono val" x="600" y="{y+40}">★ {repo['stars']}   ⑂ {repo['forks']}</text>
+<text class="mono label" x="620" y="{y}">{repo['name']}</text>
+<text class="mono muted" x="620" y="{y+20}">{repo['language']}</text>
+<text class="mono val" x="620" y="{y+40}">★ {repo['stars']}   ⑂ {repo['forks']}</text>
 """)
         y += 80
 
