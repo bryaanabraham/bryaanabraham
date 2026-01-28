@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-01-28T10:57:53.950417Z",
+  "generated_at": "2026-01-28T11:57:21.373807Z",
   "profile": {
     "username": "bryaanabraham",
     "followers": 5,
     "public_repos": 14,
     "stars_total": 5,
-    "forks_total": 2,
-    "contributions_last_year": 155
+    "forks_total": 2
+  },
+  "contributions": {
+    "total_last_year": 179,
+    "current_streak": 1,
+    "longest_streak": 5,
+    "average_per_day": 0.49
   },
   "languages_percent": {
     "Python": 46.33,
