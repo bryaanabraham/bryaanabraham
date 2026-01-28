@@ -1,4 +1,4 @@
-<svg width="1100" height="650" viewBox="0 0 1100 650" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0f1f"/>
@@ -21,16 +21,16 @@
   <rect class="bg" width="1100" height="650"/>
 
   <!-- HEADER -->
-  <text class="mono header" x="40" y="50">{{username}}@readme ----------------------------------------------------</text>
+  <text class="mono header" x="40" y="50">{{username}}@readme ------------------------------------------</text>
 
   <!-- LEFT COLUMN -->
   <text class="mono section" x="40" y="100">OS.Profile</text>
   {{PROFILE_BLOCK}}
 
-  <text class="mono section" x="40" y="250">Activity.Stats</text>
+  <text class="mono section" x="40" y="280">Activity.Stats</text>
   {{CONTRIB_BLOCK}}
 
-  <text class="mono section" x="40" y="400">Languages.Usage</text>
+  <text class="mono section" x="40" y="460">Languages.Usage</text>
   {{LANGUAGE_BARS}}
 
   <!-- RIGHT COLUMN -->
