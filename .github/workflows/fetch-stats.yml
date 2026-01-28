@@ -26,8 +26,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: python scripts/fetch_stats.py
 
-      # - name: Build SVG from template
-      #   run: python scripts/build_svg.py
+      - name: Build SVG from template
+        run: python scripts/build_svg.py
 
       - name: Commit JSON and SVG
         run: |
