@@ -21,7 +21,7 @@
   <rect class="bg" width="1100" height="650"/>
 
   <!-- HEADER -->
-  <text class="mono header" x="40" y="50">{{username}}@readme ------------------------------------------</text>
+  <text class="mono header" x="40" y="50">{{username}}@stats ------------------------------------------</text>
 
   <!-- LEFT COLUMN -->
   <text class="mono section" x="40" y="100">OS.Profile</text>
