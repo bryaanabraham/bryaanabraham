@@ -1,76 +1,128 @@
 import json
 from pathlib import Path
+from datetime import datetime
 
-with open("stats.json", "r", encoding="utf-8") as f:
+# ---------- Paths ----------
+JSON_PATH = Path("stats.json")
+TEMPLATE_PATH = Path("assets/stats-template.svg")
+OUTPUT_PATH = Path("assets/stats.svg")
+
+# ---------- Load Data ----------
+with JSON_PATH.open("r", encoding="utf-8") as f:
     data = json.load(f)
 
-profile = data.get("profile", {})
-languages = data.get("languages_percent", {})
-repos = data.get("top_repositories", [])
+profile = data["profile"]
+contrib = data["contributions"]
+languages = data["languages_percent"]
+repos = data["top_repositories"]
 
-template_path = Path("assets/stats-template.svg")
-output_path = Path("assets/stats.svg")
-svg = template_path.read_text(encoding="utf-8")
+# ---------- Load SVG Template ----------
+svg = TEMPLATE_PATH.read_text(encoding="utf-8")
 
-replacements = {
-    "{{followers}}": profile.get("followers", 0),
-    "{{repos}}": profile.get("public_repos", 0),
-    "{{stars}}": profile.get("stars_total", 0),
-    "{{forks}}": profile.get("forks_total", 0),
-    "{{contributions}}": profile.get("contributions_last_year", 0),
-}
+# =========================================================
+# HEADER
+# =========================================================
+generated_date = data["generated_at"][:10]
+svg = svg.replace("{{username}}", profile["username"])
+svg = svg.replace("{{generated_date}}", generated_date)
 
-for placeholder, value in replacements.items():
-    svg = svg.replace(placeholder, str(value))
+# =========================================================
+# PROFILE BLOCK
+# =========================================================
+profile_block = f"""
+<text class="mono label" x="50" y="160">Followers</text>
+<text class="mono val" x="250" y="160">{profile['followers']}</text>
 
-def generate_language_bars(languages_dict, start_x=0, start_y=40, bar_width=420, gap=45):
-    # Sort by percentage descending
+<text class="mono label" x="50" y="185">Public Repos</text>
+<text class="mono val" x="250" y="185">{profile['public_repos']}</text>
+
+<text class="mono label" x="50" y="210">Stars</text>
+<text class="mono val" x="250" y="210">{profile['stars_total']}</text>
+
+<text class="mono label" x="50" y="235">Forks</text>
+<text class="mono val" x="250" y="235">{profile['forks_total']}</text>
+"""
+svg = svg.replace("{{PROFILE_BLOCK}}", profile_block)
+
+# =========================================================
+# CONTRIBUTIONS BLOCK
+# =========================================================
+contrib_block = f"""
+<text class="mono label" x="490" y="160">Last Year</text>
+<text class="mono val" x="690" y="160">{contrib['total_last_year']}</text>
+
+<text class="mono label" x="490" y="185">Current Streak</text>
+<text class="mono val" x="690" y="185">{contrib['current_streak']}</text>
+
+<text class="mono label" x="490" y="210">Longest Streak</text>
+<text class="mono val" x="690" y="210">{contrib['longest_streak']}</text>
+
+<text class="mono label" x="490" y="235">Avg / Day</text>
+<text class="mono val" x="690" y="235">{contrib['average_per_day']}</text>
+"""
+svg = svg.replace("{{CONTRIB_BLOCK}}", contrib_block)
+
+# =========================================================
+# LANGUAGE COLORS (same theme as before)
+# =========================================================
+def language_color(lang):
+    return {
+        "Python": "#4ade80",            # green
+        "Jupyter Notebook": "#60a5fa",  # blue
+        "Cython": "#a78bfa",            # purple
+    }.get(lang, "#64748b")              # fallback gray
+
+
+# =========================================================
+# LANGUAGE BARS
+# =========================================================
+def generate_language_bars(languages_dict):
     sorted_langs = sorted(languages_dict.items(), key=lambda x: x[1], reverse=True)
+    y = 390
+    parts = []
 
-    svg_parts = []
-    y = start_y
-
-    for lang, percent in sorted_langs:
-        if percent < 0.5:  # skip tiny noise languages
+    for lang, pct in sorted_langs:
+        if pct < 1:
             continue
 
-        width = int((percent / 100) * bar_width)
+        width = int(pct * 2.5)  # scale to fit card width
+        color = language_color(lang)
 
-        svg_parts.append(f'''
-        <text class="mono val" x="{start_x}" y="{y}">{lang}</text>
-        <rect class="barbg" x="{start_x}" y="{y+10}" width="{bar_width}" height="14" rx="7"/>
-        <rect fill="#60a5fa" x="{start_x}" y="{y+10}" width="{width}" height="14" rx="7"/>
-        <text class="mono muted" x="{start_x + bar_width + 10}" y="{y+22}">{percent:.2f}%</text>
-        ''')
-        y += gap
+        parts.append(f"""
+<text class="mono val" x="50" y="{y}">{lang}</text>
+<rect class="barbg" x="50" y="{y+8}" width="300" height="12" rx="6"/>
+<rect fill="{color}" x="50" y="{y+8}" width="{width}" height="12" rx="6"/>
+<text class="mono muted" x="360" y="{y+18}">{pct:.1f}%</text>
+""")
+        y += 35
 
-    return "\n".join(svg_parts)
+    return "\n".join(parts)
 
-language_svg = generate_language_bars(languages)
-svg = svg.replace("{{LANGUAGE_BARS}}", language_svg)
 
-def generate_repo_section(repos_list, start_x=0, start_y=40, gap=80):
-    svg_parts = []
-    y = start_y
+svg = svg.replace("{{LANGUAGE_BARS}}", generate_language_bars(languages))
 
-    for repo in repos_list:
-        name = repo["name"]
-        stars = repo["stars"]
-        forks = repo["forks"]
-        lang = repo["language"]
+# =========================================================
+# TOP REPOSITORIES
+# =========================================================
+def generate_repos(repo_list):
+    y = 390
+    parts = []
 
-        svg_parts.append(f'''
-        <text class="mono val" x="{start_x}" y="{y}">{name}</text>
-        <text class="mono muted" x="{start_x}" y="{y+20}">{lang}</text>
-        <text class="mono val" x="{start_x}" y="{y+40}">★ {stars}   ⑂ {forks}</text>
-        ''')
-        y += gap
+    for repo in repo_list[:4]:
+        parts.append(f"""
+<text class="mono val" x="490" y="{y}">{repo['name']}</text>
+<text class="mono muted" x="490" y="{y+18}">{repo['language']}</text>
+<text class="mono val" x="490" y="{y+36}">★ {repo['stars']}   ⑂ {repo['forks']}</text>
+""")
+        y += 55
 
-    return "\n".join(svg_parts)
+    return "\n".join(parts)
 
-repo_svg = generate_repo_section(repos)
-svg = svg.replace("{{TOP_REPOS}}", repo_svg)
 
-output_path.write_text(svg, encoding="utf-8")
+svg = svg.replace("{{TOP_REPOS}}", generate_repos(repos))
 
-print("✅ SVG with dynamic languages and repos built!")
+# =========================================================
+# SAVE OUTPUT
+# =========================================================
+OUTPUT_PATH.write_text(svg, encoding="utf-8")
+print("✅ stats.svg generated successfully!")
