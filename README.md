@@ -8,5 +8,5 @@
 </pre>
 ![About card](assets/about-card.svg)
 ![Experience card](assets/work.svg)
-![Stats card](assets/stats.svg)
 ![Stack card](assets/tech_stack.svg)
+![Stats card](assets/stats.svg)
