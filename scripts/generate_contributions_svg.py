@@ -30,6 +30,15 @@ response = requests.post(
 )
 
 data = response.json()
+
+if "errors" in data:
+    print("GraphQL Errors:", data["errors"])
+    raise SystemExit("GitHub API returned errors")
+
+if "data" not in data:
+    print("Unexpected response:", data)
+    raise SystemExit("No 'data' field in response")
+
 weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
 
 # SVG layout settings
