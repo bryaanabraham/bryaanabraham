@@ -26,7 +26,7 @@ jobs:
 
       - name: Generate SVG
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
           GH_USERNAME: your-github-username
         run: python scripts/generate_contributions_svg.py
 
