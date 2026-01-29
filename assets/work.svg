@@ -1,0 +1,59 @@
+<svg width="900" height="740" viewBox="0 0 900 740" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg { fill:url(#bgGrad); }
+    .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:18px; }
+    .header { fill:#7dd3fc; font-size:22px; }
+    .section { fill:#38bdf8; }
+    .label { fill:#f59e0b; }
+    .dots { fill:#334155; }
+    .val { fill:#e5e7eb; }
+    .muted { fill:#94a3b8; font-size:15px; }
+  </style>
+
+  <rect class="bg" width="900" height="760"/>
+
+  <!-- HEADER -->
+  <text class="mono header" x="40" y="50">bryaanabraham@experience ---------------------------------------</text>
+
+  <!-- WORK EXPERIENCE -->
+  <text class="mono section" x="40" y="100">Experience.Work</text>
+
+  <text class="mono label" x="40" y="140">86000 (Mobileware Technologies) — Associate AI Engineer</text>
+  <text class="mono muted" x="40" y="165">Designing AI automation systems reducing manual operations by 70–80%</text>
+  <text class="mono muted" x="40" y="185">Working in association with BrowsEZ on SaaS Control Plane tooling</text>
+  <text class="mono muted" x="40" y="205">Frontend: React + Vite platform for org onboarding &amp; runtime instance management</text>
+  <text class="mono muted" x="40" y="225">Built UI for Middleware &amp; MCP instances, OpenAPI-based Direct HTTP tool creation</text>
+  <text class="mono muted" x="40" y="245">Integrated custom tools &amp; UI modules published via BrowsEZ CLI</text>
+  <text class="mono muted" x="40" y="265">Implemented observability dashboards with live logs via WebSocket / SSE</text>
+  <text class="mono muted" x="40" y="285">Connected to FastAPI backend using REST APIs + real-time streaming channels</text>
+
+  <text class="mono label" x="40" y="325">Mahindra and Mahindra — AI Intern</text>
+  <text class="mono muted" x="40" y="350">Voice AI assistant handling 5,000+ daily calls (test drives, enquiries, lead updates)</text>
+  <text class="mono muted" x="40" y="370">Reduced VAD false positives by 62%, improving call accuracy for 10k+ users/month</text>
+  <text class="mono muted" x="40" y="390">Validated 60+ dialogue flows &amp; 100+ prompt versions → 90% response stability</text>
+  <text class="mono muted" x="40" y="410">Built CCTV face recognition system (96% accuracy, &lt;150ms similarity matching)</text>
+  <text class="mono muted" x="40" y="430">Proposed AI background generation → 99% faster image production, 70–80% cost cut</text>
+  <text class="mono muted" x="40" y="450">Developed document forgery + cross-doc face match detection (90%+ fraud accuracy)</text>
+
+  <!-- PUBLICATIONS -->
+  <text class="mono section" x="40" y="500">Experience.Publications</text>
+
+  <text class="mono label" x="40" y="540">WanderVision</text>
+  <text class="mono muted" x="40" y="560">AI + Augmented Reality system to assist dementia patients with spatial awareness</text>
+  <text class="mono muted" x="40" y="580">Computer vision for object recognition + AR overlays for contextual guidance</text>
+
+  <text class="mono label" x="40" y="610">Beyond the Pixels</text>
+  <text class="mono muted" x="40" y="630">Digital image forensics for originality detection &amp; product condition assessment</text>
+  <text class="mono muted" x="40" y="650">Used feature analysis &amp; vision pipelines to detect tampering and quality degradation</text>
+
+  <!-- FOOTER -->
+  <text class="mono muted" x="40" y="710">Domains: Computer Vision • Generative AI • Voice AI • NLP • End to End AI Automation Systems</text>
+
+</svg>

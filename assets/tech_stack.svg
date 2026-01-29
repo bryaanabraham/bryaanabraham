@@ -1,0 +1,72 @@
+<svg width="800" height="650" viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bg { fill:url(#bgGrad); }
+    .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:18px; }
+    .header { fill:#7dd3fc; font-size:22px; }
+    .section { fill:#38bdf8; }
+    .label { fill:#f59e0b; }
+    .dots { fill:#334155; }
+    .val { fill:#e5e7eb; }
+    .muted { fill:#94a3b8; font-size:15px; }
+    .ok { fill:#4ade80; }
+  </style>
+
+  <rect class="bg" width="850" height="650"/>
+
+  <!-- HEADER -->
+  <text class="mono header" x="40" y="50">bryaanabraham@techstack ---------------------------------</text>
+
+  <text class="mono section" x="40" y="95">System.Modules</text>
+
+  <!-- AI CORE -->
+  <text class="mono label" x="40" y="135">&gt; loading ai.core</text>
+  <text class="mono dots" x="260" y="135">.......................</text>
+  <text class="mono ok" x="520" y="135">OK</text>
+  <text class="mono muted" x="80" y="160">Python • PyTorch • TensorFlow • Scikit-Learn • OpenCV • Generative AI / LLMs</text>
+
+  <!-- DATA -->
+  <text class="mono label" x="40" y="195">&gt; loading data.engineering</text>
+  <text class="mono dots" x="320" y="195">................</text>
+  <text class="mono ok" x="520" y="195">OK</text>
+  <text class="mono muted" x="80" y="220">NumPy • Pandas • MySQL • Redis • Anaconda • R</text>
+
+  <!-- BACKEND -->
+  <text class="mono label" x="40" y="255">&gt; loading backend.api</text>
+  <text class="mono dots" x="280" y="255">....................</text>
+  <text class="mono ok" x="520" y="255">OK</text>
+  <text class="mono muted" x="80" y="280">FastAPI • WebSockets • SSE Streaming</text>
+
+  <!-- CLOUD -->
+  <text class="mono label" x="40" y="315">&gt; loading cloud.infrastructure</text>
+  <text class="mono dots" x="340" y="315">...............</text>
+  <text class="mono ok" x="520" y="315">OK</text>
+  <text class="mono muted" x="80" y="340">AWS • GCP • Azure • Docker • Kubernetes • Terraform</text>
+
+  <!-- DEV ENV -->
+  <text class="mono label" x="40" y="375">&gt; loading dev.environment</text>
+  <text class="mono dots" x="310" y="375">................</text>
+  <text class="mono ok" x="520" y="375">OK</text>
+  <text class="mono muted" x="80" y="400">Git • GitHub • VS Code • Bash • Linux • Pytest</text>
+
+  <!-- SYSTEM / HARDWARE -->
+  <text class="mono label" x="40" y="435">&gt; loading edge.ai.hardware</text>
+  <text class="mono dots" x="300" y="435">..................</text>
+  <text class="mono ok" x="520" y="435">OK</text>
+  <text class="mono muted" x="80" y="460">Raspberry Pi • Arduino • Embedded AI Integrations • IoT Prototyping</text>
+
+  <!-- SPECIALIZATIONS -->
+  <text class="mono section" x="40" y="510">System.Specializations</text>
+  <text class="mono muted" x="80" y="535">Computer Vision • Voice AI • Generative AI • AI Automation</text>
+  <text class="mono muted" x="80" y="560">Real-time Systems • Model Deployment • Full Stack Engineering</text>
+
+  <!-- STATUS FOOTER -->
+  <text class="mono muted" x="40" y="610">Runtime Focus → Scalable AI Systems • Automation Platforms • Cloud-Native Apps</text>
+
+</svg>
