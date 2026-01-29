@@ -3,7 +3,7 @@ import requests
 from collections import defaultdict
 from datetime import datetime
 
-GITHUB_TOKEN = os.environ["GH_PAT"]
+GITHUB_TOKEN = os.environ["GH_TOKEN"]
 USERNAME = os.environ["GH_USERNAME"]
 
 query = """
