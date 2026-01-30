@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add output/contributions.json output/contributions.svg
+          git add assets/contributions.json assets/contributions.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update contribution graph"
           git push
