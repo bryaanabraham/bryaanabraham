@@ -3,8 +3,8 @@ import json
 import requests
 from datetime import datetime, timedelta
 
-GITHUB_TOKEN = os.environ["GH_PAT"]
-USERNAME = os.environ["GH_USERNAME"]
+GITHUB_TOKEN = os.getenv("GH_TOKEN")
+USERNAME = "bryaanabraham"
 
 # ---------- DATE RANGE (PAST 40 DAYS) ----------
 end_date = datetime.utcnow().date()
