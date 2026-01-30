@@ -76,7 +76,6 @@ chart_height = max(180, min(max_val * pixels_per_commit, 520))
 
 bar_width = 22
 gap = 10
-chart_height = 260
 left_pad = 70
 bottom_pad = 140
 top_pad = 120
@@ -86,6 +85,8 @@ top_pad = 120
 bottom_pad = 140
 svg_height = top_pad + chart_height + bottom_pad
 bars_svg = []
+
+ist = datetime.utcnow() + timedelta(hours=5, minutes=30)
 
 for i, val in enumerate(values):
     bar_height = (val / max_val) * chart_height
@@ -137,7 +138,7 @@ svg = f"""<svg width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width
 
   <!-- FOOTER -->
   <text class="mono muted" x="40" y="{svg_height - 25}">
-    Auto-generated via GitHub Actions • Updated: {datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
+    Auto-generated via GitHub Actions • Updated: {ist.strftime("%Y-%m-%d %H:%M IST")}
   </text>
 </svg>
 """
