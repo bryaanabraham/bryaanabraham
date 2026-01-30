@@ -10,3 +10,4 @@
 ![Experience card](assets/work.svg)
 ![Stack card](assets/tech_stack.svg)
 ![Stats card](assets/stats.svg)
+![Contributions card](assets/contributions.svg)
