@@ -1,4 +1,4 @@
-<svg width="900" height="740" viewBox="0 0 900 740" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="720" viewBox="0 0 900 720" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0f1f"/>
@@ -36,24 +36,23 @@
 
   <text class="mono label" x="40" y="325">Mahindra and Mahindra — AI Intern</text>
   <text class="mono muted" x="40" y="350">Voice AI assistant handling 5,000+ daily calls (test drives, enquiries, lead updates)</text>
-  <text class="mono muted" x="40" y="370">Reduced VAD false positives by 62%, improving call accuracy for 10k+ users/month</text>
-  <text class="mono muted" x="40" y="390">Validated 60+ dialogue flows &amp; 100+ prompt versions → 90% response stability</text>
-  <text class="mono muted" x="40" y="410">Built CCTV face recognition system (96% accuracy, &lt;150ms similarity matching)</text>
-  <text class="mono muted" x="40" y="430">Proposed AI background generation → 99% faster image production, 70–80% cost cut</text>
-  <text class="mono muted" x="40" y="450">Developed document forgery + cross-doc face match detection (90%+ fraud accuracy)</text>
+  <text class="mono muted" x="40" y="370">Validated 60+ dialogue flows &amp; 100+ prompt versions → 90% response stability</text>
+  <text class="mono muted" x="40" y="390">Built CCTV face recognition system (96% accuracy, &lt;150ms latency in similarity matching)</text>
+  <text class="mono muted" x="40" y="410">Proposed AI background generation → 99% faster image production, 70–80% cost cut</text>
+  <text class="mono muted" x="40" y="430">Developed document forgery + cross-doc face match detection (90%+ fraud accuracy)</text>
 
   <!-- PUBLICATIONS -->
-  <text class="mono section" x="40" y="500">Experience.Publications</text>
+  <text class="mono section" x="40" y="480">Experience.Publications</text>
 
-  <text class="mono label" x="40" y="540">WanderVision</text>
-  <text class="mono muted" x="40" y="560">AI + Augmented Reality system to assist dementia patients with spatial awareness</text>
-  <text class="mono muted" x="40" y="580">Computer vision for object recognition + AR overlays for contextual guidance</text>
+  <text class="mono label" x="40" y="520">WanderVision</text>
+  <text class="mono muted" x="40" y="540">AI + Augmented Reality system to assist dementia patients with spatial awareness</text>
+  <text class="mono muted" x="40" y="560">Computer vision for object recognition + AR overlays for contextual guidance</text>
 
-  <text class="mono label" x="40" y="610">Beyond the Pixels</text>
-  <text class="mono muted" x="40" y="630">Digital image forensics for originality detection &amp; product condition assessment</text>
-  <text class="mono muted" x="40" y="650">Used feature analysis &amp; vision pipelines to detect tampering and quality degradation</text>
+  <text class="mono label" x="40" y="590">Beyond the Pixels</text>
+  <text class="mono muted" x="40" y="610">Digital image forensics for originality detection &amp; product condition assessment</text>
+  <text class="mono muted" x="40" y="630">Used feature analysis &amp; vision pipelines to detect tampering and quality degradation</text>
 
   <!-- FOOTER -->
-  <text class="mono muted" x="40" y="710">Domains: Computer Vision • Generative AI • Voice AI • NLP • End to End AI Automation Systems</text>
+  <text class="mono muted" x="40" y="690">Domains: Computer Vision • Generative AI • Voice AI • NLP • End to End AI Automation Systems</text>
 
 </svg>
