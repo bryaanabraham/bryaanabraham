@@ -31,7 +31,7 @@
 
     <text class="mono label" x="40"  y="114">Uptime:</text>
     <text class="mono dots"  x="205" y="114">................................</text>
-    <text class="mono val"   x="520" y="114">22 years, 9 months and 9 days</text>
+    <text class="mono val"   x="520" y="114">22 years, 9 months and 11 days</text>
 
     <text class="mono label" x="40"  y="138">Host:</text>
     <text class="mono dots"  x="205" y="138">................................</text>
