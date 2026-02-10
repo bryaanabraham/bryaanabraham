@@ -47,11 +47,11 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">232</text>
+<text class="mono val" x="500" y="320">235</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">0</text>
+<text class="mono val" x="500" y="350">2</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
@@ -59,7 +59,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.63</text>
+<text class="mono val" x="500" y="410">0.64</text>
 
 
   <text class="mono section" x="40" y="460">Languages.Usage</text>
