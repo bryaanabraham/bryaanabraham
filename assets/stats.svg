@@ -10,10 +10,10 @@
     .bg { fill:#0b1220; }
     .mono { font-family: "JetBrains Mono","Fira Code","Cascadia Mono",Menlo,Consolas,monospace; font-size:16px; }
     .header { fill:#93c5fd; }
+    .section { fill:#38bdf8; }
     .label { fill:#f59e0b; }
     .dots  { fill:#64748b; }
     .val   { fill:#e5e7eb; }
-    .section { fill:#38bdf8; }
     .muted { fill:#94a3b8; font-size:15px; }
     .barbg { fill:#1e293b; }
   </style>
@@ -47,11 +47,11 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">235</text>
+<text class="mono val" x="500" y="320">240</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">0</text>
+<text class="mono val" x="500" y="350">3</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
@@ -59,7 +59,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.64</text>
+<text class="mono val" x="500" y="410">0.65</text>
 
 
   <text class="mono section" x="40" y="460">Languages.Usage</text>
