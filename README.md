@@ -9,5 +9,6 @@
 ![About card](assets/about-card.svg)
 ![Experience card](assets/work.svg)
 ![Stack card](assets/tech_stack.svg)
+![Certificates card](assets/certificates.svg)
 ![Stats card](assets/stats.svg)
 ![Contributions card](assets/contributions.svg)
