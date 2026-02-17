@@ -59,7 +59,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.67</text>
+<text class="mono val" x="500" y="410">0.66</text>
 
 
   <text class="mono section" x="40" y="460">Languages.Usage</text>
