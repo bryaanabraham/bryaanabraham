@@ -98,11 +98,6 @@ for i, val in enumerate(values):
         f'<rect x="{x}" y="{y}" width="{bar_width}" height="{bar_height}" rx="5" fill="#38bdf8"/>'
     )
 
-    # Value above bar
-    bars_svg.append(
-        f'<text x="{x + bar_width/2}" y="{y - 8}" text-anchor="middle" class="mono val" font-size="13">{val}</text>'
-    )
-
     # Date label below bar (rotated slightly for spacing)
     bars_svg.append(
         f'<text x="{x + bar_width/2}" y="{svg_height - 95}" text-anchor="middle" class="mono muted" font-size="12" transform="rotate(-45 {x + bar_width/2},{svg_height - 95})">{labels[i]}</text>'
