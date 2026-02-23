@@ -28,11 +28,11 @@
   
 <text class="mono label" x="40" y="140">Followers</text>
 <text class="mono dots" x="220" y="140">......................</text>
-<text class="mono val" x="500" y="140">5</text>
+<text class="mono val" x="500" y="140">6</text>
 
 <text class="mono label" x="40" y="170">Public Repos</text>
 <text class="mono dots" x="220" y="170">......................</text>
-<text class="mono val" x="500" y="170">14</text>
+<text class="mono val" x="500" y="170">15</text>
 
 <text class="mono label" x="40" y="200">Stars</text>
 <text class="mono dots" x="220" y="200">......................</text>
@@ -47,11 +47,11 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">249</text>
+<text class="mono val" x="500" y="320">252</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">0</text>
+<text class="mono val" x="500" y="350">1</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
@@ -59,7 +59,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.68</text>
+<text class="mono val" x="500" y="410">0.69</text>
 
 
   <text class="mono section" x="40" y="460">Languages.Usage</text>
