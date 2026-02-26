@@ -1,4 +1,5 @@
 import os
+
 import requests
 import json
 from datetime import datetime
@@ -111,7 +112,7 @@ data = {
     "top_repositories": top_repo_data
 }
 
-with open("stats.json", "w") as f:
+with open("assets/stats.json", "w") as f:
     json.dump(data, f, indent=2)
 
 print("Stats JSON with streaks generated.")

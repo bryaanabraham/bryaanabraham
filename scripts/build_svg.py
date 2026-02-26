@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-JSON_PATH = Path("stats.json")
+JSON_PATH = Path("asstes/stats.json")
 TEMPLATE_PATH = Path("assets/stats-template.svg")
 OUTPUT_PATH = Path("assets/stats.svg")
 
