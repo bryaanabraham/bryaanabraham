@@ -47,11 +47,11 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">255</text>
+<text class="mono val" x="500" y="320">258</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">0</text>
+<text class="mono val" x="500" y="350">4</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
@@ -59,21 +59,21 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.69</text>
+<text class="mono val" x="500" y="410">0.7</text>
 
 
   <text class="mono section" x="40" y="460">Languages.Usage</text>
   
 <text class="mono label" x="40" y="500">Jupyter Notebook</text>
 <rect class="barbg" x="220" y="488" width="260" height="12" rx="6"/>
-<rect fill="#60a5fa" x="220" y="488" width="133" height="12" rx="6"/>
-<text class="mono val" x="500" y="500">51.4%</text>
+<rect fill="#60a5fa" x="220" y="488" width="134" height="12" rx="6"/>
+<text class="mono val" x="500" y="500">51.6%</text>
 
 
 <text class="mono label" x="40" y="530">Python</text>
 <rect class="barbg" x="220" y="518" width="260" height="12" rx="6"/>
-<rect fill="#4ade80" x="220" y="518" width="120" height="12" rx="6"/>
-<text class="mono val" x="500" y="530">46.3%</text>
+<rect fill="#4ade80" x="220" y="518" width="119" height="12" rx="6"/>
+<text class="mono val" x="500" y="530">46.1%</text>
 
 
 <text class="mono label" x="40" y="560">Cython</text>
