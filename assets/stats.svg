@@ -51,7 +51,7 @@
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">1</text>
+<text class="mono val" x="500" y="350">0</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
