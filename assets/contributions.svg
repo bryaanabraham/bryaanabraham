@@ -1,5 +1,5 @@
 
-<svg width="850" height="712" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="612" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 .bg { fill:#0b1220; }
@@ -59,37 +59,25 @@ System.GitActivity
 2 commits
 </text>
 <text class="mono muted" x="80" y="319">BrowsEZ-Microsoft-Teams  : 1</text><text class="mono muted" x="80" y="343">bryaanabraham            : 1</text>
-<text class="mono label" x="40" y="387">
-&gt; scanning commits :: 2026-02-26
-</text>
-
-<text class="mono dots" x="340" y="387">
-....................
-</text>
-
-<text class="mono ok" x="560" y="387">
-4 commits
-</text>
-<text class="mono muted" x="80" y="419">BrowsEZ-Microsoft-Teams  : 3</text><text class="mono muted" x="80" y="443">bryaanabraham            : 1</text>
-<text class="mono section" x="40" y="487">
+<text class="mono section" x="40" y="387">
 System.Summary
 </text>
-<text class="mono muted" x="80" y="517">Last 7 Days Total      : 9</text><text class="mono muted" x="80" y="542">Most Active Repo       : BrowsEZ-Microsoft-Teams</text>
+<text class="mono muted" x="80" y="417">Last 7 Days Total      : 5</text><text class="mono muted" x="80" y="442">Most Active Repo       : BrowsEZ-Microsoft-Teams</text>
 
-<rect x="40" y="592" width="10" height="18" fill="#4ade80">
+<rect x="40" y="492" width="10" height="18" fill="#4ade80">
 <animate attributeName="opacity"
 values="1;0;1"
 dur="1s"
 repeatCount="indefinite"/>
 </rect>
 
-<text class="mono muted" x="60" y="607">
+<text class="mono muted" x="60" y="507">
 awaiting next push...
 </text>
 
-<text class="mono muted" x="40" y="682">
+<text class="mono muted" x="40" y="582">
 Auto-generated via GitHub Actions • Updated:
-2026-03-05 04:05 IST
+2026-03-05 07:56 IST
 </text>
 
 </svg>
