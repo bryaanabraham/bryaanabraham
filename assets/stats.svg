@@ -32,7 +32,7 @@
 
 <text class="mono label" x="40" y="170">Public Repos</text>
 <text class="mono dots" x="220" y="170">......................</text>
-<text class="mono val" x="500" y="170">15</text>
+<text class="mono val" x="500" y="170">16</text>
 
 <text class="mono label" x="40" y="200">Stars</text>
 <text class="mono dots" x="220" y="200">......................</text>
@@ -47,7 +47,7 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">264</text>
+<text class="mono val" x="500" y="320">267</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
@@ -67,7 +67,7 @@
 <text class="mono label" x="40" y="500">Jupyter Notebook</text>
 <rect class="barbg" x="220" y="488" width="260" height="12" rx="6"/>
 <rect fill="#60a5fa" x="220" y="488" width="133" height="12" rx="6"/>
-<text class="mono val" x="500" y="500">51.4%</text>
+<text class="mono val" x="500" y="500">51.3%</text>
 
 
 <text class="mono label" x="40" y="530">Python</text>
