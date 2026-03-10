@@ -2,16 +2,17 @@ import os
 
 import requests
 import json
-from datetime import datetime
-
+from datetime import datetime, timezone
+from dotenv import load_dotenv
+load_dotenv()
 USERNAME = "bryaanabraham"
 TOKEN = os.getenv("GH_TOKEN")
 
 headers = {"Authorization": f"Bearer {TOKEN}"}
 
 # ---------------- REST: USER + REPOS ----------------
-user = requests.get(f"https://api.github.com/users/{USERNAME}", headers=headers).json()
-repos = requests.get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100", headers=headers).json()
+user = requests.get(f"https://api.github.com/users/{USERNAME}", headers=headers, timeout=10).json()
+repos = requests.get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100", headers=headers, timeout=10).json()
 
 total_stars = sum(r["stargazers_count"] for r in repos)
 total_forks = sum(r["forks_count"] for r in repos)
@@ -19,7 +20,7 @@ total_forks = sum(r["forks_count"] for r in repos)
 # ---------------- LANGUAGES (BY BYTES) ----------------
 language_bytes = {}
 for repo in repos:
-    langs = requests.get(repo["languages_url"], headers=headers).json()
+    langs = requests.get(repo["languages_url"], headers=headers, timeout=10).json()
     for lang, bytes_of_code in langs.items():
         language_bytes[lang] = language_bytes.get(lang, 0) + bytes_of_code
 
@@ -50,7 +51,7 @@ graphql_query = {
     """
 }
 
-gql = requests.post("https://api.github.com/graphql", json=graphql_query, headers=headers).json()
+gql = requests.post("https://api.github.com/graphql", json=graphql_query, headers=headers, timeout=10).json()
 
 calendar = gql["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 total_contributions = calendar["totalContributions"]
@@ -94,7 +95,7 @@ top_repo_data = [
 
 # ---------------- BUILD JSON ----------------
 data = {
-    "generated_at": datetime.utcnow().isoformat() + "Z",
+    "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     "profile": {
         "username": USERNAME,
         "followers": user["followers"],
