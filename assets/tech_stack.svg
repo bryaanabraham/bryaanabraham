@@ -21,7 +21,7 @@
   <rect class="bg" width="850" height="650"/>
 
   <!-- HEADER -->
-  <text class="mono header" x="40" y="50">bryaanabraham@techstack ---------------------------------</text>
+  <text class="mono header" x="40" y="50">bryaanabraham@techstack ----------------------------------------------------</text>
 
   <text class="mono section" x="40" y="95">System.Modules</text>
 

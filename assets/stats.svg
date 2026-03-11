@@ -21,7 +21,7 @@
   <rect class="bg" width="1100" height="650"/>
 
   <!-- HEADER -->
-  <text class="mono header" x="40" y="50">bryaanabraham@stats ------------------------------------------</text>
+  <text class="mono header" x="40" y="50">bryaanabraham@stats --------------------------------------------------------------</text>
 
   <!-- LEFT COLUMN -->
   <text class="mono section" x="40" y="100">OS.Profile</text>
@@ -47,7 +47,7 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">267</text>
+<text class="mono val" x="500" y="320">269</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>

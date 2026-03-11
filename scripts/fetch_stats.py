@@ -3,8 +3,8 @@ import os
 import requests
 import json
 from datetime import datetime, timezone
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 USERNAME = "bryaanabraham"
 TOKEN = os.getenv("GH_TOKEN")
 
