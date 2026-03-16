@@ -6,8 +6,4 @@
  \___|_  /  \___  >____/____/\____/ /\  |___|__|_|  /  |______  / |__|   / ____|(____  /___|  /
        \/       \/                  )/            \/          \/         \/          \/     \/ 
 </pre>
-![About card](assets/about-card.svg)
-![Experience card](assets/work.svg)
-![Stack card](assets/tech_stack.svg)
-![Certificates card](assets/certificates.svg)
-![Stats card](assets/stats.svg)
+![About card](assets/final.svg)
