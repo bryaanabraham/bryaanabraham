@@ -28,24 +28,22 @@ jobs:
           fi
           pip install requests
 
-      - name: Run scripts
+      - name: Generate final.svg
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          python scripts/fetch_stats.py
-          python scripts/build_svg.py
-          python scripts/get_age.py
+          python scripts/generate.py
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git add assets/
-          
+
+          git add assets/final.svg
+
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update github stats and age SVGs [skip ci]"
+            git commit -m "chore: update final.svg [skip ci]"
             git push
           fi
