@@ -1,4 +1,4 @@
-<svg width="1300" height="5236" viewBox="0 0 1300 5236" xmlns="http://www.w3.org/2000/svg">
+<svg width="1300" height="4232" viewBox="0 0 1300 4232" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Section 1: About Card (1300x470, no scaling) -->
   <svg x="0" y="0" width="1300" height="470" viewBox="0 0 1300 470">
@@ -34,7 +34,7 @@
 
     <text class="mono label" x="40"  y="114">Uptime:</text>
     <text class="mono dots"  x="205" y="114">................................</text>
-    <text class="mono val"   x="520" y="114">22 years, 10 months and 19 days</text>
+    <text class="mono val"   x="520" y="114">22 years, 10 months and 20 days</text>
 
     <text class="mono label" x="40"  y="138">Host:</text>
     <text class="mono dots"  x="205" y="138">................................</text>
@@ -331,11 +331,11 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">271</text>
+<text class="mono val" x="500" y="320">274</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
-<text class="mono val" x="500" y="350">1</text>
+<text class="mono val" x="500" y="350">0</text>
 
 <text class="mono label" x="40" y="380">Longest Streak</text>
 <text class="mono dots" x="220" y="380">......................</text>
@@ -343,7 +343,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.74</text>
+<text class="mono val" x="500" y="410">0.75</text>
 
 
 <text class="mono section" x="40" y="460">Languages.Usage</text>
