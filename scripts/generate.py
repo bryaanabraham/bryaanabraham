@@ -11,8 +11,10 @@ import os
 import calendar
 import requests
 import json
-from datetime import date, datetime, timezone
+from datetime import date
 from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv()
 # ── Config ─────────────────────────────────────────────────────────────────
 
 USERNAME   = "bryaanabraham"
@@ -232,8 +234,8 @@ def main():
     # Stats — profile
     svg = svg.replace("{{followers}}",    str(profile["followers"]))
     svg = svg.replace("{{public_repos}}", str(profile["public_repos"]))
-    svg = svg.replace("{{stars_total}}",  str(profile["stars_total"]))
-    svg = svg.replace("{{forks_total}}",  str(profile["forks_total"]))
+    svg = svg.replace("{{stars}}",  str(profile["stars_total"]))
+    svg = svg.replace("{{forks}}",  str(profile["forks_total"]))
 
     # Stats — contributions
     svg = svg.replace("{{total_last_year}}", str(contrib["total_last_year"]))
