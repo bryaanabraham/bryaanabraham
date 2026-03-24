@@ -13,8 +13,8 @@ import requests
 import json
 from datetime import date
 from pathlib import Path
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 # ── Config ─────────────────────────────────────────────────────────────────
 
 USERNAME   = "bryaanabraham"
