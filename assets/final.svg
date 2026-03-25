@@ -34,7 +34,7 @@
 
     <text class="mono label" x="40"  y="114">Uptime:</text>
     <text class="mono dots"  x="205" y="114">................................</text>
-    <text class="mono val"   x="520" y="114">22 years, 10 months and 27 days</text>
+    <text class="mono val"   x="520" y="114">22 years and 11 months</text>
 
     <text class="mono label" x="40"  y="138">Host:</text>
     <text class="mono dots"  x="205" y="138">................................</text>
@@ -331,7 +331,7 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">274</text>
+<text class="mono val" x="500" y="320">277</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
