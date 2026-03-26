@@ -251,7 +251,7 @@ def main():
 
     print("Writing final.svg …")
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
-    print(f"✅  Done — {OUTPUT_PATH} generated (age: {age_str})")
+    print(f"Done — {OUTPUT_PATH} generated (age: {age_str})")
 
 
 if __name__ == "__main__":
