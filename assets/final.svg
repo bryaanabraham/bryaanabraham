@@ -34,7 +34,7 @@
 
     <text class="mono label" x="40"  y="114">Uptime:</text>
     <text class="mono dots"  x="205" y="114">................................</text>
-    <text class="mono val"   x="520" y="114">22 years, 11 months and 4 days</text>
+    <text class="mono val"   x="520" y="114">22 years, 11 months and 5 days</text>
 
     <text class="mono label" x="40"  y="138">Host:</text>
     <text class="mono dots"  x="205" y="138">................................</text>
@@ -316,7 +316,7 @@
 
 <text class="mono label" x="40" y="170">Public Repos</text>
 <text class="mono dots" x="220" y="170">......................</text>
-<text class="mono val" x="500" y="170">16</text>
+<text class="mono val" x="500" y="170">18</text>
 
 <text class="mono label" x="40" y="200">Stars</text>
 <text class="mono dots" x="220" y="200">......................</text>
@@ -331,7 +331,7 @@
   
 <text class="mono label" x="40" y="320">Last Year</text>
 <text class="mono dots" x="220" y="320">......................</text>
-<text class="mono val" x="500" y="320">279</text>
+<text class="mono val" x="500" y="320">282</text>
 
 <text class="mono label" x="40" y="350">Current Streak</text>
 <text class="mono dots" x="220" y="350">......................</text>
@@ -343,7 +343,7 @@
 
 <text class="mono label" x="40" y="410">Avg / Day</text>
 <text class="mono dots" x="220" y="410">......................</text>
-<text class="mono val" x="500" y="410">0.76</text>
+<text class="mono val" x="500" y="410">0.77</text>
 
 
 <text class="mono section" x="40" y="460">Languages.Usage</text>
