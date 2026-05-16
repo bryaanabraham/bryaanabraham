@@ -10,7 +10,6 @@ generate.py — Unified SVG generator.
 import os
 import calendar
 import requests
-import json
 from datetime import date
 from pathlib import Path
 # from dotenv import load_dotenv
@@ -72,10 +71,9 @@ def fetch_github_stats():
         f"https://api.github.com/users/{USERNAME}/repos?per_page=100",
         headers=HEADERS, timeout=10
     ).json()
-
+    print(repos)
     total_stars = sum(r["stargazers_count"] for r in repos)
     total_forks = sum(r["forks_count"]      for r in repos)
-
     # Languages
     language_bytes: dict[str, int] = {}
     for repo in repos:
